@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8399309-86f3-47df-9569-1d391c9a6861" name="Default Changelist" comment="" />
+    <list default="true" id="e8399309-86f3-47df-9569-1d391c9a6861" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +18,12 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jM3kOej6dIf7VpKzIbmkSTkjKG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +32,9 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -32,7 +43,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -44,10 +55,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1720" y="488" key="#GOROOT" timestamp="1603722018994">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="1720" y="488" key="#GOROOT/2560.23.1680.1027/0.23.2560.1057@0.23.2560.1057" timestamp="1603722018994" />
     <state x="609" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603608507483">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="609" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.127.1288.923/0.23.1680.1027@0.23.1680.1027" timestamp="1603608507483" />
     <state x="1384" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.23.1680.1027/0.23.2560.1057@0.23.2560.1057" timestamp="1603600338894" />
+    <state x="1429" y="190" key="SettingsEditor" timestamp="1603724318069">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="1429" y="190" key="SettingsEditor/2560.23.1680.1027/0.23.2560.1057@0.23.2560.1057" timestamp="1603724318069" />
   </component>
 </project>

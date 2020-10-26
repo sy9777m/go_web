@@ -5,14 +5,32 @@ import (
 	"net/http"
 )
 
-func main()  {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+func main() {
+	r := &router{make(map[string]map[string]http.HandlerFunc)}
+
+	r.HandlerFunc("GET", "/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintln(w, "Welcome!")
 	})
 
-	http.HandleFunc("/about", func(w http.ResponseWriter, r *http.Request) {
+	r.HandlerFunc("GET", "/about", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintln(w, "About this website!")
 	})
 
-	http.ListenAndServe(":8000", nil)
+	r.HandlerFunc("GET", "/users/:id", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "retrieve user")
+	})
+
+	r.HandlerFunc("GET", "/users/:user_id/addresses/:address_id", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "retrieve user's address")
+	})
+
+	r.HandlerFunc("POST", "/users", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "create user")
+	})
+
+	r.HandlerFunc("POST", "/users/:user_id/addressed", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "create user's address")
+	})
+
+	http.ListenAndServe(":8000", r)
 }
